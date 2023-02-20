@@ -10,6 +10,9 @@ def power_a_b(b):
     elif (a == 1):
         return (a)
     return (a ** b)
+
 a = int(input('Enter a number: '))
 b = int(input('Enter power for "a": '))
-print('The result of exponentiation is:', power_a_b(b))
+
+result = power_a_b(b)
+print('The result of exponentiation is:', result)
