@@ -4,7 +4,7 @@
 # A = 3; B = 5 -> 243 (3⁵)
 # A = 2; B = 3 -> 8
 
-def power_a_b(b):
+def power_a_b(a, b):
     if b == 0:
         return 1
     elif (a == 1):
